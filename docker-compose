@@ -17,7 +17,7 @@ services:
         restart: unless-stopped
     # This is my rest api app*****************************************
     myfirstapp:
-        image: myfirst:0.1
+        image: Dockerfile
         network_mode: bridge
         container_name: employee
         expose:
